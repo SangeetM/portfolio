@@ -1,2 +1,2 @@
-# portfolio
-currently a dummy portfolio until something is live
+# Applied Research
+currently a dummy Applied Research website until something is live

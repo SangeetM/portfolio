@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- My Javascript -->
+    <script src="main.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="/images/code.png"/>
+
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation for Computers -->
+    <div class="container navigation pt-3 d-none d-md-block">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-4">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-4">
+              <a href="#projects" class="text-white navigation-link"
+                >Projects</a
+              >
+            </div>
+            <div class="col-4">
+              <a href="#social-media" class="text-white navigation-link"
+                >Social Media</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation for Mobiles -->
+    <div class="container navigation pt-3 d-block d-sm-block d-md-none">
+      <div class="d-block text-center">
+        <i class="fas fa-code fa-3x text-warning pb-3"></i>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center pt-3">
+        <div class="col-4 text-right">
+          <a href="#about" class="text-white navigation-link">About</a>
+        </div>
+        <div class="col-4 text-center">
+          <a href="#projects" class="text-white navigation-link">Projects</a>
+        </div>
+        <div class="col-4 text-left">
+          <a href="#social-media" class="text-white navigation-link"
+            >Social Media</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container for Computer-->
+    <div class="main-container container d-none d-md-block">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-warning m-heading">Sangeet Moy Das</h1>
+          <h2 class="text-white">Data Scientist</h2>
+        </div>
+        <div class="col-6">
+          <img src="images/boy.png" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container for Mobiles -->
+    <div
+      class="main-container-mobile container d-flex justify-content-center align-items-center d-none d-sm-block d-md-none"
+    >
+      <div class="content">
+        <h2 class="text-white">Hello, I'm</h2>
+        <h1 class="text-warning m-heading">Sangeet Moy Das</h1>
+        <h2 class="text-white">Data Scientist</h2>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <img src="images/about_img.svg" class="img-fluid" />
+        </div>
+        <div class="col-md-6 col-sm-12 pl-md-5 pt-5 pb-md-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">I'm a Data Scientist</h1>
+          <p>
+            I started my journey in this world of Intelligent Systems 2 years with an inclination towards research related to 
+            real time streaming data, owing to my experience with using Machine Learning for Financial Market. Shortly after 
+            graduating from SOA University, I joined the Innovation & Development Labs team at Mu Sigma Inc. where I work on 
+            a wide variety of interesting and meaningful data science projects on a daily basis.
+          </p>
+          <br />
+          <p>
+            I strong believe in the motto of <b>"Learning over Knowing"</b> and the benefits of sharing my research with the 
+            AI/ML community which lead to building this website so that I can share my research with fellow researcher and 
+            help them in their journey towards bringing a change in the world.
+         </p>
+          <a class="btn btn-outline-warning" href="https://www.linkedin.com/in/sangeet.das/" target="_blank">
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-3 m-heading">My Projects</h1>
+      <div class="row">
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="images/corona-tracker.svg"
+              class="card-img-top p-3"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-warning ">Project 1</h5>
+              <p class="card-text">
+                Description for Project 1
+              </p>
+              <div class="row">
+                <div class="col-6">
+                  <a href="https://github.com/SangeetM/"  target="_blank" class="btn btn-warning d-flex justify-content-center">Code</a>
+                </div>
+                <div class="col-6">
+                  <a href="http://sangeetm.github.io/"  target="_blank" class="btn btn-dark d-flex justify-content-center"">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="images/disappr.svg"
+              class="card-img-top p-3"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-warning ">Project 2</h5>
+              <p class="card-text" style="min-height:12rem">
+                Description for Project 2
+              </p>
+              <div class="row align-self-end">
+                <div class="col-6">
+                  <a href="https://github.com/SangeetM/" target="_blank"  class="btn btn-warning d-flex justify-content-center">Code</a>
+                </div>
+                <div class="col-6">
+                  <a href="http://sangeetm.github.io/"  target="_blank" class="btn btn-dark d-flex justify-content-center"">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="images/corona-tracker-india.svg"
+              class="card-img-top p-3"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-warning ">Project 3</h5>
+              <p class="card-text">
+                Description for Project 3               
+              </p>
+              <div class="row">
+                <div class="col-6">
+                  <a href="https://github.com/SangeetM/" target="_blank"  class="btn btn-warning d-flex justify-content-center">Code</a>
+                </div>
+                <div class="col-6">
+                  <a href="http://sangeetm.github.io/" target="_blank"  class="btn btn-dark d-flex justify-content-center"">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="images/job-aggregator.svg"
+              class="card-img-top p-3"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-warning ">Project 4</h5>
+              <p class="card-text">
+                Description for Project 4  
+              </p>
+              <div class="row">
+                <div class="col-6">
+                  <a href="https://github.com/SangeetM/" target="_blank" class="btn btn-warning d-flex justify-content-center">Code</a>
+                </div>
+                <div class="col-6">
+                  <a href="http://sangeetm.github.io/" target="_blank"  class="btn btn-dark d-flex justify-content-center"">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="images/pomodoro-timer.svg"
+              class="card-img-top p-3"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-warning ">Project 5</h5>
+              <p class="card-text">
+                Description for Project 5  
+              </p>
+              <div class="row">
+                <div class="col-6">
+                  <a href="https://github.com/SangeetM/" target="_blank"  class="btn btn-warning d-flex justify-content-center">Code</a>
+                </div>
+                <div class="col-6">
+                  <a href="http://sangeetm.github.io/"  target="_blank" class="btn btn-dark d-flex justify-content-center"">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="images/social-wall.svg"
+              class="card-img-top p-3"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-warning ">Project 6</h5>
+              <p class="card-text" style="min-height:12rem">
+                Description for Project 6
+              </p>
+              <div class="row">
+                <div class="col-6">
+                  <a href="https://github.com/SangeetM/"  target="_blank" class="btn btn-warning d-flex justify-content-center">Code</a>
+                </div>
+                <div class="col-6">
+                  <a href="http://sangeetm.github.io/" target="_blank"  class="btn btn-dark d-flex justify-content-center"">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Social Media</h4>
+        <h1 class="m-heading">Let's be friends</h1>
+        <div class="row pt-5 d-flex justify-content-center">
+
+          <div class="col-12 col-md-3 mt-md-3 media_link btn">
+            <a
+            href="https://www.linkedin.com/in/sangeet.das/"
+            target="_blank" class="text-decoration-none"
+          >
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="m-0 pt-2 text-white">LinkedIn</h3>
+                </div>
+                <div
+                  class="col-6 d-flex justify-content-end align-items-center"
+                >
+                  <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+        
+          <div class="col-12 col-md-3 mt-3 media_link btn">
+            <a href="https://github.com/SangeetM" target="_blank" class="text-decoration-none">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="m-0 pt-2 text-white">Github</h3>
+                </div>
+                <div
+                  class="col-6 d-flex justify-content-end align-items-center"
+                >
+                  <i class="fab fa-github fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+        
+          <div class="col-12 col-md-3 mt-3 media_link btn">
+            <a href="https://www.youtube.com/playlist?list=PLKQYHgEtgnEDniipzWtFY7khLudz2ssNz" target="_blank" class="text-decoration-none" >
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="m-0 pt-2 text-white">Youtube</h3>
+                </div>
+                <div
+                  class="col-6 d-flex justify-content-end align-items-center"
+                >
+                  <i class="fab fa-youtube fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-3 mt-3 media_link bg-warning btn">
+            <div onclick="openEmail();">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="m-0 pt-2 text-dark">Email</h3>
+                </div>
+                <div
+                  class="col-6 d-flex justify-content-end align-items-center"
+                >
+                  <i class="fas fa-envelope fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="mailId" class="bg-warning">
+          <h3 id="mailIdText" class="m-0"></h3>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Copyright &copy; 2020 |
+          <a class="text-warning text-decoration-none" href="#about"
+            >Sangeet Moy Das</a
+          >
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
